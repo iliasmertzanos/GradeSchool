@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SchoolTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-11-25T21:14:26" hostname="ltimertzanidis" time="0.087">
+  <properties/>
+  <testcase name="addsStudents" classname="SchoolTest" time="0.039"/>
+  <testcase name="addsMoreStudentsInSameGrade" classname="SchoolTest" time="0.033"/>
+  <testcase name="startsWithNoStudents" classname="SchoolTest" time="0.006"/>
+  <testcase name="getsStudentsInAGrade" classname="SchoolTest" time="0.002"/>
+  <testcase name="sortsSchool" classname="SchoolTest" time="0.001"/>
+  <testcase name="addsStudentsInMultipleGrades" classname="SchoolTest" time="0.001"/>
+  <testcase name="getsStudentsInEmptyGrade" classname="SchoolTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
