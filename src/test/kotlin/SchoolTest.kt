@@ -19,7 +19,7 @@ class SchoolTest {
         assertTrue(school.db().isEmpty())
     }
 
-    @Ignore
+    
     @Test
     fun addsStudents() {
         school.add("Aimee", 2)
@@ -28,7 +28,7 @@ class SchoolTest {
         assertEquals(expected, school.db())
     }
 
-    @Ignore
+    
     @Test
     fun addsMoreStudentsInSameGrade() {
         val grade = 2
@@ -40,7 +40,7 @@ class SchoolTest {
         assertEquals(expected, school.db())
     }
 
-    @Ignore
+    
     @Test
     fun addsStudentsInMultipleGrades() {
         school.add("Chelsea", 3)
@@ -50,7 +50,7 @@ class SchoolTest {
         assertEquals(expected, school.db())
     }
 
-    @Ignore
+    
     @Test
     fun getsStudentsInAGrade() {
         school.add("Franklin", 5)
@@ -61,13 +61,13 @@ class SchoolTest {
         assertEquals(expected, school.db())
     }
 
-    @Ignore
+    
     @Test
     fun getsStudentsInEmptyGrade() {
         assertTrue(school.grade(1).isEmpty())
     }
 
-    @Ignore
+    
     @Test
     fun sortsSchool() {
         school.add("Jennifer", 4)
